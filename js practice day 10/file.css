@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid white; */
+  justify-items: center;
+  align-items: center;
+
+  position: relative;
+  top: 220px;
+  left: 600px;
+
+  animation-name: box;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.a {
+  height: 30px;
+  width: 30px;
+  background-color: crimson;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+
+  animation-name: a;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a {
+  0% {
+    top: 40%;
+    left: 45%;
+  }
+  50% {
+    top: 20%;
+    left: 45%;
+  }
+  100% {
+    top: 40%;
+    left: 45%;
+  }
+}
+
+.b {
+  height: 30px;
+  width: 30px;
+  background-color: khaki;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40%;
+  left: 45%;
+
+  animation-name: b;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes b {
+  0% {
+    bottom: 40%;
+    left: 45%;
+  }
+  50% {
+    bottom: 20%;
+    left: 45%;
+  }
+  100% {
+    bottom: 40%;
+    left: 45%;
+  }
+}
+.c {
+  height: 30px;
+  width: 30px;
+  background-color: seagreen;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 45%;
+  left: 36%;
+  animation-name: c;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes c {
+  0% {
+    left: 40%;
+  }
+  50% {
+    left: 20%;
+  }
+  100% {
+    left: 40%;
+  }
+}
+.d {
+  height: 30px;
+  width: 30px;
+  background-color: steelblue;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 45%;
+  right: 36%;
+  animation-name: d;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes d {
+  0% {
+    right: 40%;
+  }
+  50% {
+    right: 20%;
+  }
+  100% {
+    right: 40%;
+  }
+}
